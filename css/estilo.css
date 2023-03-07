@@ -2,6 +2,12 @@
 /* font-family: 'Julee', cursive;
 font-family: 'Ubuntu', sans-serif;
  */
+ .mi_logo
+ {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+ }
  a
  {
     text-decoration: none;
@@ -36,16 +42,6 @@ h3
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     font-weight:bold;
-}
-/* MENU */
- .menu nav ul li a
-{
-    font-size: 20px;
-    font-family: 'Ubuntu', sans-serif;
-}
-.menu nav ul
-{
-    list-style: none;
 }
 
 /*pie de página*/
