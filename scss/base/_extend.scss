@@ -1,0 +1,45 @@
+%diposicion_div
+{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+
+}
+.logo
+{
+    width: 40%;
+    @extend %diposicion_div;
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+    .logo
+{
+    width: 30%;
+}
+}
+
+@media (max-width: 575px) {
+    .logo
+{
+    width: 20%;
+}
+}
+
+%disposicion_img
+{
+    width: 150px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.popular
+{
+    @extend %disposicion_img;
+}
+
+
+
+
