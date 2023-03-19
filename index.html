@@ -8,7 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- iconos -->
     <script src="https://kit.fontawesome.com/dbe4dec54b.js" crossorigin="anonymous"></script> 
-    <link rel="stylesheet" href="css/estilo.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
     <!-- font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,57 +17,54 @@
 </head>
 <body>
     <header class="menu">
-        <img src="./img/logo.png" class="mi_logo" alt="">
+        <div class=""><img class="logo" src="./img/logo.png" alt=""></div>
         <!-- inicio nav-bar -->
-        <!-- <nav>
-            <ul>
-                <li><a href="index.html">INICIO</a></li>
-                <li><a href="pages/catalogo.html">CATALOGO</a></li>
-                <li><a href="pages/somos.html">CONOCENOS</a></li>
-                <li><a href="pages/contacto.html">CONTACTO</a></li>
-                <li><a href="pages/cliente.html">INICIAR SESIÓN</a></li>
-            </ul>
-        </nav> -->
-        <ul class="nav nav-tabs">
+        <ul class="nav nav-pills nav-fill">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              <a class="nav-link active" aria-current="page" href="/index.html">INICIO</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="pages/catalogo.html">CATALOGO</a>
+              <a class="nav-link" href="./pages/catalogo.html">CATALOGO</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="pages/somos.html">CONOCENOS</a>
+              <a class="nav-link" href="./pages/somos.html">CONOCENOS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="pages/contacto.html">CONTACTO</a>
+              <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="pages/cliente.html">INICIAR SESIÓN</a>
-            </li>
+                <a class="nav-link" href="./pages/cliente.html">INICIAR SESIÓN</a>
+              </li>
           </ul>
             <!-- fin nav bar -->
-        <h2 class="leyenda">NUESTRO ARTE FLORAL EN FOMI</h2>
+        <p class="leyenda">NUESTRO ARTE FLORAL EN FOMI</p>
       
     </header>
     <section>
-        <h3>LOS MAS POPULARES</h3>
-        <div>
-            <div>
-                <img src="./img/hortencia.jpg" alt="">
-                <p>HORTENCIA</p>
-                <p>MXN $250.00</p>
+        <h2>LOS MAS POPULARES</h2>
+        <!-- populares -->
+        <div class="card-group">
+            <div class="card">
+              <img src="./img/amarilis_blanco.jpg" class="card-img-top popular" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AMARILIS</h5>
+              </div>
             </div>
-            <div>
-                <img src="./img/rosas_amarillas.jpg" alt="">
-                <p>ROSAS MEDIANAS</p>
-                <p>MXN $400.00</p>
+            <div class="card">
+              <img src="./img/clavel_blanco.jpg" class="card-img-top popular" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">CLAVEL</p>
+              </div>
             </div>
-            <div>
-                <img src="./img/nochebuena.jpg" alt=""></li>
-                <p>NOCHEBUENA<p>
-                <p>MXN $400.00</p>
-            </div>   
-        </div>
+            <div class="card">
+              <img src="./img/Crisantemo.jpg" class="card-img-top popular" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">CRISANTEMO</h5>
+              </div>
+            </div>
+          </div>
+          <!-- fin populares -->
+        
     </section>
 
     <footer>
